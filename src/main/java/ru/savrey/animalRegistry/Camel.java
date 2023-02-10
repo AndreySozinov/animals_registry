@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Camel extends PackAnimal{
 
-    public Camel(String name, Date birthday, ArrayList<String> commands) {
-        super(name, birthday, commands);
+    public Camel(String name, Date birthday) {
+        super(name, birthday);
     }
 }

@@ -1,6 +1,6 @@
 package ru.savrey.animalRegistry;
 
-public class Counter {
+public class Counter implements AutoCloseable{
     private int count;
 
     public void add(){
@@ -9,5 +9,10 @@ public class Counter {
 
     public int getCount() {
         return count;
+    }
+
+    @Override
+    public void close() throws Exception {
+
     }
 }

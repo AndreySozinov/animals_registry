@@ -4,23 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a1e0b5f-ad15-41e4-941b-ef31507089c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Camel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Donkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Hamster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/PackAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Pet.java" afterDir="false" />
+    <list default="true" id="1a1e0b5f-ad15-41e4-941b-ef31507089c7" name="Changes" comment="Application created">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/AnimalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Camel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Camel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Donkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Donkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Hamster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Hamster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/PackAnimal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/PackAnimal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/savrey/animalRegistry/Pet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -39,6 +38,13 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2LSeaDicWXNSRI3jABBYpY2Qb8U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -51,9 +57,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/metod/YandexDisk/razrab/attestation/animals_registry&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.savrey.animalRegistry.App" />
+      <module name="animals_registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.savrey.animalRegistry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,6 +90,14 @@
       <option name="presentableId" value="Default" />
       <updated>1675868974019</updated>
     </task>
+    <task id="LOCAL-00001" summary="Application created">
+      <created>1675963076656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675963076656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,5 +110,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Application created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Application created" />
   </component>
 </project>

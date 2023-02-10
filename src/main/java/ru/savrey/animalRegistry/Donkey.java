@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Donkey extends PackAnimal{
 
-    public Donkey(String name, Date birthday, ArrayList<String> commands) {
-        super(name, birthday, commands);
+    public Donkey(String name, Date birthday) {
+        super(name, birthday);
     }
 }
